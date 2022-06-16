@@ -1,5 +1,17 @@
-import requests, threading, datetime, sys, os, time
+import requests
+import threading
+import datetime
+import sys
+import os
+import time
 
+os.system("pip install requests")
+os.system("pip install  threading")
+os.system("pip install datetime")
+os.system("pip install sys")
+os.system("pip install os")
+os.system("pip install time")
+os.system("cls")
 def main():
 	global auth, maxerr, api, pos, dely
 	os.system('cls' if os.name == 'nt' else 'clear')
@@ -12,11 +24,11 @@ print("                    ╚════════════════�
 print("                ╔══════════════════════════════════════════════╗")
 print("                ║   Thanks to INV Team, KIPASGTPS & PyhnX.     ║")
 print("                ╚══════════════════════════════════════════════╝")
-	print("="*64)
-	maxerr = 0 # Avoid Ban when User AFK.
-	api = "kitkabackend.eastus.cloudapp.azure.com:5010"
-	auth = str(input("╔══[MP]\n════➤ "))
-	pos = int(input("""
+print("="*64)
+maxerr = 0 # Avoid Ban when User AFK.
+api = "kitkabackend.eastus.cloudapp.azure.com:5010"
+auth = str(input("╔══[MP]\n════➤ "))
+pos = int(input("""
                 ╔══════════════════════════════════════════════╗
 0 =             ║ 1. Ronde 1 ( lose )                          ║ 
 1 =             ║ 2. Ronde 2 ( lose )                          ║
@@ -24,11 +36,11 @@ print("                ╚══════════════════
                 ╚══════════════════════════════════════════════╝
 Select
 Input: """))
-	dely = float(input("\nDelay per Requests (Ex. 0.5, 1.0, 1.5, and etc) :\n╔══[MP]\n════➤ "))
-	thr = int(input("\nThreads :\n╔══[MP]\n════➤ "))
-	print("="*64)
-	for _ in range(thr):
-	        threading.Thread(target=s).start()
+dely = float(input("\nDelay per Requests (Ex. 0.5, 1.0, 1.5, and etc) :\n╔══[MP]\n════➤ "))
+thr = int(input("\nThreads :\n╔══[MP]\n════➤ "))
+print("="*64)
+for _ in range(thr):
+ threading.Thread(target=s).start()
 
 def s():
         global maxerr
