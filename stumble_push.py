@@ -16,13 +16,13 @@ def main():
 	global auth, maxerr, api, pos, dely
 	os.system('cls' if os.name == 'nt' else 'clear')
 print("                ╔══════════════════════════════════════════════╗")
-print("                ║            MP - Exploit Stummble             ║")
+print("                ║            Exploit Stumble iZyen             ║")
 print("                ╚══════════════════════════════════════════════╝")
 print("                    ╔══════════════════════════════════════╗")
-print("                    ║     https://discord.gg/cEambqJq      ║")
+print("                    ║                iZyen                 ║")
 print("                    ╚══════════════════════════════════════╝")
 print("                ╔══════════════════════════════════════════════╗")
-print("                ║   Thanks to INV Team, KIPASGTPS & PyhnX.     ║")
+print("                ║               Thanks to iZyen                ║")
 print("                ╚══════════════════════════════════════════════╝")
 print("="*64)
 maxerr = 0 # Avoid Ban when User AFK.
